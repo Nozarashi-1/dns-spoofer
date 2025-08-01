@@ -1,4 +1,4 @@
-# DNS Spoofing Tool (Python & Scapy):
+# DNS Spoofing Tool:
 
 This is a Python-based DNS spoofing tool that uses `netfilterqueue` and `scapy` to intercept DNS requests and redirect them to a malicious IP address.  
 
