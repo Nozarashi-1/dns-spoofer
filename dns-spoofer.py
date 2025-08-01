@@ -36,10 +36,10 @@ def process_packet(packet):
 
     packet.accept()
 
-# Get command-line arguments
+
 options = get_arguments()
 
-# Bind queue
+
 queue = netfilterqueue.NetfilterQueue()
 queue.bind(0, process_packet)
 queue.run()
