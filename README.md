@@ -2,6 +2,8 @@
 
 This is a Python-based DNS spoofing tool that uses `netfilterqueue` and `scapy` to intercept DNS requests and redirect them to a malicious IP address.  
 
+---
+
 ## ⚠ Disclaimer
 
     This project is for educational purposes only.  
@@ -9,6 +11,8 @@ This is a Python-based DNS spoofing tool that uses `netfilterqueue` and `scapy` 
     Do NOT use it on networks without explicit permission.  
 
     Unauthorized use may be illegal in your country.
+
+---
 
 ## 📌 Features
 
@@ -21,6 +25,17 @@ This is a Python-based DNS spoofing tool that uses `netfilterqueue` and `scapy` 
     - No hardcoded values — all options are set via command line
 
     - Can be easily integrated into penetration testing workflows
+
+---
+
+## 🛠 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Nozarashi-1/dns-spoofer.git
+cd arp-spoof-detector
+```
+---
 
 ## 🚀 Usage
 
@@ -41,6 +56,8 @@ Set up iptables to forward packets to the NFQUEUE:
 # When finished, restore firewall rules:
 
     sudo iptables --flush    
+
+---
 
 ## 📂 Command-Line Options:
 
