@@ -33,7 +33,7 @@ This is a Python-based DNS spoofing tool that uses `netfilterqueue` and `scapy` 
 1. Clone the repository:
 ```bash
 git clone https://github.com/Nozarashi-1/dns-spoofer.git
-cd arp-spoof-detector
+cd dns-spoofer
 ```
 ---
 
